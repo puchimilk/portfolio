@@ -20,6 +20,11 @@ header div {
 
 div.content {
   height: 500px;
+  padding: 0 10%;
+}
+
+div.content h1 {
+  text-align: center;
 }
 
 footer {
