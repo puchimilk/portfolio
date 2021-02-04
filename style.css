@@ -12,6 +12,7 @@ ul {
 
 ul li {
   text-align: center;
+  display: inline-block;
 }
 
 li a {
