@@ -10,6 +10,7 @@ header {
 }
 
 header div {
+  font-size: 24px;
   display: inline-block;
   line-height: 70px;
   float: left;
