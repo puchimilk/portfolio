@@ -6,6 +6,7 @@ body {
 
 header {
   background: #eeeeee;
+  height: 70px;
 }
 
 header div {
@@ -14,6 +15,7 @@ header div {
 
 footer {
   background: #eeeeee;
+  height: 100px;
 }
 
 nav {
