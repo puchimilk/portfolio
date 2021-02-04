@@ -4,6 +4,18 @@ body {
   margin: 0;
 }
 
+nav {
+  line-height: 70px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-align: center;
+}
+
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
   body {
