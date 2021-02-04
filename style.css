@@ -15,6 +15,7 @@ ul li {
 
 li a {
   color: #000000;
+  text-decoration: none;
 }
 
 /** 750px以下 **/
