@@ -8,6 +8,10 @@ header {
   background: #eeeeee;
 }
 
+header div {
+  display: inline-block;
+}
+
 footer {
   background: #eeeeee;
 }
