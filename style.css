@@ -65,6 +65,11 @@ form imput {
   width: 100%;
 }
 
+form textarea {
+  width: 100%;
+  resize: none;
+}
+
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
   body {
