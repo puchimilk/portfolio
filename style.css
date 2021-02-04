@@ -5,5 +5,7 @@ body {
 
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
-  background: yellow;
+  body {
+    background: yellow;
+  }
 }
