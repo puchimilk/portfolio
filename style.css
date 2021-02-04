@@ -14,6 +14,10 @@ header div {
   float: left;
 }
 
+.content {
+  height: 500px;
+}
+
 footer {
   background: #eeeeee;
   height: 100px;
