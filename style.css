@@ -1,7 +1,15 @@
 body {
-  background: red;
+  background: #ffffff;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   margin: 0;
+}
+
+header {
+  background: #eeeeee;
+}
+
+footer {
+  background: #eeeeee;
 }
 
 nav {
