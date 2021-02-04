@@ -5,10 +5,10 @@ body {
 }
 
 nav {
-  line-height: 70px;
 }
 
 ul {
+  line-height: 70px;
   list-style: none;
 }
 
