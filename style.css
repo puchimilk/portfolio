@@ -8,12 +8,12 @@ nav {
 }
 
 ul {
-  line-height: 70px;
-  list-style: none;
 }
 
-li {
-  text-align: center;
+ul li {
+}
+
+li a {
 }
 
 /** 750px以下 **/
