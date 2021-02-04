@@ -49,6 +49,11 @@ li a {
   text-decoration: none;
 }
 
+div.copyright {
+  font-size: 0.83em;
+  text-align: center;
+}
+
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
   body {
