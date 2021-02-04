@@ -59,6 +59,12 @@ div.copyright {
   text-align: center;
 }
 
+form imput {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  width: 100%;
+}
+
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
   body {
