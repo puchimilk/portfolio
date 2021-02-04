@@ -14,7 +14,7 @@ header div {
   float: left;
 }
 
-.content {
+div.content {
   height: 500px;
 }
 
