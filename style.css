@@ -111,4 +111,7 @@ input[type="button"] {
   body {
     background: yellow;
   }
+  nav {
+    width: 100%;
+  }
 }
