@@ -153,46 +153,20 @@ input[type="button"] {
   }
   
   .menu_btn:active {
-    background: #ffffff;
   }
   
   .menu_btn:active:before {
-    top: 0;
-    right: 0;
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
   }
   
   .menu_btn:active:after {
-    bottom: 0;
-    right: 0;
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
   }
   
   .menu {
-    background: #ffffff;
-    display: none;
-    width: 100%;
-    position: absolute;
-    top: 51px;
-    left: 0;
   }
   
   nav {
-    margin: 0 auto;
-    width: 100%;
-    display: block;
   }
   
   nav li a {
-    color: #ffffff;
-    display: block;
-    width: 100%;
-    padding: 15px;
-    position: relative;
-    border-bottom: 1px solid #999999;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
   }
 }
