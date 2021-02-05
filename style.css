@@ -111,14 +111,36 @@ input[type="button"] {
   body {
     background: #ffffff;
   }
-  header {}
-  .menu_btn {}
-  .menu_btn:before {}
-  .menu_btn:after {}
-  .menu_btn.active {}
-  .menu_btn.active:before {}
-  .menu_btn.active:after {}
-  .menu {}
-  nav {}
-  nav li a {}
+  header {
+    background: #ffffff;
+  }
+  .menu_btn {
+    background: #ffffff;
+  }
+  .menu_btn:before {
+    content: '';
+  }
+  .menu_btn:after {
+    content: '';
+  }
+  .menu_btn.active {
+    background: #ffffff;
+  }
+  .menu_btn.active:before {
+    top: 0;
+    right: 0;
+  }
+  .menu_btn.active:after {
+    bottom: 0;
+    right: 0;
+  }
+  .menu {
+    background: #ffffff;
+  }
+  nav {
+    margin: 0 auto;
+  }
+  nav li a {
+    display: block;
+  }
 }
