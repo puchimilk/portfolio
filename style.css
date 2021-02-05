@@ -109,6 +109,8 @@ input[type="button"] {
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
   body {
+  }
+  header {
     background: #ffffff;
     height: 50px;
     width: 100%;
@@ -117,9 +119,6 @@ input[type="button"] {
     left: 0;
     border-bottom: 1px solid #000000;
     z-index: 100;
-  }
-  header {
-    background: #ffffff;
   }
   .menu_btn {
     background: #ffffff;
