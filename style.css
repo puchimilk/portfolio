@@ -62,6 +62,7 @@ div.copyright {
 div > form > input {
   font-size: 18px;
   margin-bottom: 10px;
+  padding: 6px;
   border: 2px solid #000000;
   border-radius: 5px;
   box-sizing: border-box;
@@ -72,6 +73,7 @@ div > form > textarea {
   font-size: 18px;
   width: 100%;
   display: block;
+  padding: 6px;
   margin-bottom: 10px;
   resize: none;
   border: 2px solid #000000;
