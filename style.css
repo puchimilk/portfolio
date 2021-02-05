@@ -109,7 +109,7 @@ input[type="button"] {
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
   body {
-    background: yellow;
+    background: #ffffff;
   }
   nav {
     width: 100%;
