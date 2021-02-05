@@ -69,7 +69,7 @@ div > form > input {
   width: 100%;
   outline: none;
   appearance: none;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   /* -webkit-tap-highlight-color: transparent; */
 }
 
@@ -89,7 +89,7 @@ div > form > textarea {
   box-sizing: border-box;
   outline: none;
   appearance: none;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 
 /** 750px以下 **/
