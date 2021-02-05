@@ -111,14 +111,14 @@ input[type="button"] {
   body {
     background: #ffffff;
   }
-  nav {
-    width: 100%;
-  }
-  ul {
-  }
-  li {
-    width: 33.33333%;
-    width: calc(100% / 3);
-    width: -webkit-calc(100% / 3);
-  }
+  header {}
+  .menu_btn {}
+  .menu_btn:before {}
+  .menu_btn:after {}
+  .menu_btn.active {}
+  .menu_btn.active:before {}
+  .menu_btn.active:after {}
+  .menu {}
+  nav {}
+  nav li a {}
 }
