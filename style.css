@@ -134,11 +134,13 @@ input[type="button"] {
   }
   
   .menu_btn {
-    display: fixed;
+    background: #3584bb;
+    display: flex;
     height: 60px;
     width: 60px;
     top: 10px;
     right: 10px;
+    z-index: 90;
   }
   
   .menu_btn:before {
