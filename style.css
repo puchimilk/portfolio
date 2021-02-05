@@ -182,6 +182,8 @@ input[type="button"] {
   }
   nav {
     margin: 0 auto;
+    width: 100%;
+    display: block;
   }
   nav li a {
     display: block;
