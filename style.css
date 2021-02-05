@@ -70,7 +70,8 @@ div > form > input {
   outline: none;
 }
 
-div > form > input:focus {
+input:focus {
+  outline: none;
 }
 
 div > form > textarea {
