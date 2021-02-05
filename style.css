@@ -101,6 +101,11 @@ textarea {
   -webkit-appearance: none;
 }
 
+input[type="button"] {
+  color: #ffffff;
+  background: #000000;
+}
+
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
   body {
