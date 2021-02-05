@@ -78,7 +78,6 @@ div > form > input {
   outline: none;
   appearance: none;
   -webkit-appearance: none;
-  /* -webkit-tap-highlight-color: transparent; */
 }
 
 input:focus {
@@ -97,8 +96,8 @@ div > form > textarea {
   border-radius: 5px;
   box-sizing: border-box;
   outline: none;
-  /* appearance: none; */
-  /* -webkit-appearance: none; */
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 /** 750px以下 **/
