@@ -112,14 +112,6 @@ input[type="button"] {
   }
   
   header {
-    background: #ffffff;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    border-bottom: 1px solid #000000;
-    z-index: 100;
   }
   
   .menu_btn span,
