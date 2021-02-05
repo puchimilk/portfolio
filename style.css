@@ -144,16 +144,14 @@ input[type="button"] {
   .menu_btn:before {
     height: 30px;
     width: 2px;
-    top: -9px;
-    right: 0;
+    bottom: 8px;
     content: '';
   }
   
   .menu_btn:after {
     height: 30px;
     width: 2px;
-    top: -9px;
-    right: 0;
+    top: 8px;
     content: '';
   }
   
