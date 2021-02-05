@@ -41,12 +41,7 @@
             <form>
               <input type="text" placeholder="Name">
               <input type="text" placeholder="Email">
-              <textarea></textarea>
-              <script>
-                $("textarea").attf("row", 2).on("input", function() {
-                  $(this).height(0).innerHeight($(this).scrollHeight);
-                });
-              </script>
+              <textarea rows="3"></textarea>
               <input type="button" value="SUBMIT">
             </form>
           </div>
