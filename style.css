@@ -59,7 +59,7 @@ div.copyright {
   text-align: center;
 }
 
-div > form > imput {
+div > form > input {
   border: 2px solid #000000;
   border-radius: 5px;
   width: 100%;
