@@ -50,7 +50,7 @@ ul {
   padding: 0;
 }
 
-ul li {
+li {
   text-align: center;
   display: inline-block;
   width: 120px;
@@ -117,5 +117,8 @@ input[type="button"] {
   ul {
   }
   li {
+    width: 33.33333%;
+    width: calc(100% / 3);
+    width: -webkit-calc(100% / 3);
   }
 }
