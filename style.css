@@ -84,7 +84,7 @@ input:focus {
   outline: none;
 }
 
-div > form > textarea {
+textarea {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 18px;
   width: 100%;
