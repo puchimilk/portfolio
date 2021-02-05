@@ -115,6 +115,5 @@ input[type="button"] {
     width: 100%;
   }
   ul li {
-    width: calc(100% / 3);
   }
 }
