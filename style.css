@@ -67,6 +67,7 @@ div > form > input {
   border-radius: 5px;
   box-sizing: border-box;
   width: 100%;
+  outline: none;
 }
 
 div > form > textarea {
@@ -79,6 +80,7 @@ div > form > textarea {
   border: 2px solid #000000;
   border-radius: 5px;
   box-sizing: border-box;
+  outline: none;
 }
 
 /** 750px以下 **/
