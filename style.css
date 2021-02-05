@@ -125,6 +125,7 @@ input[type="button"] {
   .menu_btn span,
   .menu_btn span:before,
   .menu_btn span:after {
+    background: #ffffff;
     content: '';
     display: block;
     height: 3px;
