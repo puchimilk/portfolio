@@ -160,13 +160,13 @@ input[type="button"] {
   .menu_btn:active {
     background: #ffffff;
   }
-  .menu_btn:active + .menu_btn:before {
+  .menu_btn:active:before {
     top: 0;
     right: 0;
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
   }
-  .menu_btn:active + .menu_btn:after {
+  .menu_btn:active:after {
     bottom: 0;
     right: 0;
     transform: rotate(135deg);
