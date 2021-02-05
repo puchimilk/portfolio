@@ -70,6 +70,7 @@ div > form > input {
 div > form > textarea {
   font-size: 18px;
   width: 100%;
+  display: block;
   resize: none;
   border: 2px solid #000000;
   border-radius: 5px;
