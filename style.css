@@ -69,7 +69,7 @@ div > form > input {
   box-sizing: border-box;
   width: 100%;
   outline: none;
-  /* appearance: none; */
+  appearance: none;
   /* -webkit-appearance: none; */
   /* -webkit-tap-highlight-color: transparent; */
 }
