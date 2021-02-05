@@ -186,6 +186,13 @@ input[type="button"] {
     display: block;
   }
   nav li a {
+    color: #ffffff;
     display: block;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    border-bottom: 1px solid #999999;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
   }
 }
