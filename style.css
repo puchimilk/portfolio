@@ -122,6 +122,7 @@ input[type="button"] {
   }
   
   .menu_btn, .menu_btn:before, .menu_btn:after {
+    background: #000000;
   }
   
   .menu_btn {
