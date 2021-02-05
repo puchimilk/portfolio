@@ -42,6 +42,11 @@
               <input type="text" placeholder="Name">
               <input type="text" placeholder="Email">
               <textarea></textarea>
+              <script>
+                $("textarea").on("input", e => {
+                  $(e.target).height(0).innerHeight(e.target.scrolleHeight);
+                });
+              </script>
               <input type="button" value="SUBMIT">
             </form>
           </div>
