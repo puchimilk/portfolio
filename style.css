@@ -5,17 +5,9 @@ body {
 }
 
 header {
-  background: #eeeeee;
-  height: 70px;
 }
 
 header div {
-  font-size: 24px;
-  display: inline-block;
-  line-height: 70px;
-  float: left;
-  padding: 0 15px;
-  text-align: center;
 }
 
 div.content {
@@ -40,25 +32,15 @@ footer {
 }
 
 nav {
-  line-height: 70px;
-  float: right;
-  font-size: 20px;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
 }
 
 li {
-  text-align: center;
-  display: inline-block;
-  width: 120px;
 }
 
 li a {
-  color: #000000;
-  text-decoration: none;
 }
 
 div.copyright {
