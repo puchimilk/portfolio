@@ -69,6 +69,7 @@ div > form > input {
   width: 100%;
   outline: none;
   appearance: none;
+  -webkit-appearance: none;
 }
 
 input:focus {
@@ -87,6 +88,7 @@ div > form > textarea {
   box-sizing: border-box;
   outline: none;
   appearance: none;
+  -webkit-appearance: none;
 }
 
 /** 750px以下 **/
