@@ -44,7 +44,6 @@
               <textarea></textarea>
               <script>
                 $("textarea").on("input", function(evt) {
-                  $(evt.target).height(0);
                   $(evt.target).height(evt.target.scrollHeight);
                 });
               </script>
