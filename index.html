@@ -11,6 +11,14 @@
   <body>
     <div>
       <header>
+        <script>
+          $(function() {
+            $(".menu_btn").on("click", function() {
+              $(this).next().slideToggle();
+              $(this).toggleClass("active");
+            });
+          });
+        </script>
         <span class="menu_btn"></span>
         <div class="menu">
           <nav>
