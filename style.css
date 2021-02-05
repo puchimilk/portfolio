@@ -170,6 +170,11 @@ input[type="button"] {
   }
   .menu {
     background: #ffffff;
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 51px;
+    left: 0;
   }
   nav {
     margin: 0 auto;
