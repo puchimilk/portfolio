@@ -120,6 +120,10 @@ input[type="button"] {
     border-bottom: 1px solid #000000;
     z-index: 100;
   }
+  
+  .menu_btn, .menu_btn:before, .menu_btn:after {
+  }
+  
   .menu_btn {
     background: #000000;
     display: block;
