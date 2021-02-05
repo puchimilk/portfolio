@@ -43,7 +43,7 @@
               <input type="text" placeholder="Email">
               <textarea></textarea>
               <script>
-                $("textarea").on("input", e => {
+                $("textarea").attf("rows", 1).on("input", e => {
                   $(e.target).height(0).innerHeight(e.target.scrolleHeight);
                 });
               </script>
