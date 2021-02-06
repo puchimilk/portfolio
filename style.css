@@ -151,12 +151,15 @@ input[type="button"] {
   }
   
   .menu_btn input:checked ~ span {
+    opacity: 0;
   }
   
   .menu_btn input:checked ~ span:before {
+    transform: rotate(45deg);
   }
   
   .menu_btn input:checked ~ span:after {
+    transform: rotate(45deg);
   }
 }
 
