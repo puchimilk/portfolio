@@ -106,6 +106,8 @@ input[type="button"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    high-light-color: transparent;
+    -webkit-high-light-color: transparent;
   }
   
   .menu input {
