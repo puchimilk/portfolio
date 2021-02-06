@@ -108,6 +108,15 @@ input[type="button"] {
   }
   
   .menu_btn input {
+    display: flex;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 1;
+    -webkit-tap-highlight-color: transparent;
   }
   
   .menu_btn span {
