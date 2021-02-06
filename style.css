@@ -128,11 +128,20 @@ input[type="button"] {
     transform-origin: bottom right;
   }
   
-  div input:checked ~ #span01 {}
+  div input:checked ~ #span01 {
+    background: #0c2461;
+    transform: rotate(-45deg) translateX(-8px) translateY(-8px);
+  }
   
-  div input:checked ~ #span02 {}
+  div input:checked ~ #span02 {
+    background: #0c2461;
+    opacity: 0;
+  }
   
-  div input:checked ~ #span03 {}
+  div input:checked ~ #span03 {
+    background: #0c2461;
+    transform: rotate(45deg) translateX(-8px) translateY(8px);
+  }
 }
 
 
