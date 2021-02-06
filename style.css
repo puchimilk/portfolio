@@ -105,64 +105,21 @@ input[type="button"] {
   }
   
   .menu_btn {
-    display: flex;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    tap-highlight-color: transparent;
-    -webkit-tap-highlight-color: transparent;
   }
   
   .menu_btn input {
-    display: flex;
-    height: 40px;
-    width: 40px;
-    margin: 5px;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0;
-    z-index: 1;
   }
   
   .menu_btn span {
-    background: #7f8fa6;
-    height: 6px;
-    width: 35px;
-    border-radius: 3px;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
   }
   
-  #span01 {
-    margin-bottom: 5px;
-    transform-origin: 100% 100%;
+  .menu_btn input:checked ~ span {
   }
   
-  #span02 {
+  .menu_btn input:checked ~ span:before {
   }
   
-  #span03 {
-    margin-top: 5px;
-    transform-origin: 100% 100%;
-  }
-  
-  div input:checked ~ #span01 {
-    background: #0c2461;
-    transform: rotate(-45deg) translateX(-6px) translateY(-6px);
-  }
-  
-  div input:checked ~ #span02 {
-    background: #0c2461;
-    opacity: 1;
-  }
-  
-  div input:checked ~ #span03 {
-    background: #0c2461;
-    transform: rotate(45deg) translateX(-6px) translateY(6px);
+  .menu_btn input:checked ~ span:after {
   }
 }
 
