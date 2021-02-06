@@ -137,7 +137,7 @@ input[type="button"] {
   }
   
   #span01 {
-    transform-origin: bottom left;
+    transform-origin: bottom right;
   }
   
   #span02 {
@@ -145,11 +145,11 @@ input[type="button"] {
   }
   
   #span03 {
-    transform-origin: top left;
+    transform-origin: top right;
   }
   
   .menu_btn input:checked ~ #span01 {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateX(-5px);
   }
   
   .menu_btn input:checked ~ #span02 {
@@ -157,7 +157,7 @@ input[type="button"] {
   }
   
   .menu_btn input:checked ~ #span03 {
-    transform: rotate(45deg) translateX(5px);
+    transform: rotate(45deg) translateX(-5px);
   }
 }
 
