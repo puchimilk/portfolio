@@ -106,8 +106,8 @@ input[type="button"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    tap-high-light-color: transparent;
-    -webkit-tap-high-light-color: transparent;
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
   }
   
   .menu input {
