@@ -140,14 +140,14 @@ input[type="button"] {
   }
   
   #span02 {
-    margin: 10px 0;
+    margin: 6px 0;
   }
   
   #span03 {
   }
   
   .menu_btn input:checked ~ #span01 {
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
   }
   
   .menu_btn input:checked ~ #span02 {
