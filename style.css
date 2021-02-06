@@ -139,15 +139,15 @@ input[type="button"] {
   
   #span01 {
     margin-bottom: 5px;
-    transform-origin: top right;
+    transform-origin: 100% 100%;
   }
   
   #span02 {
-    margin-bottom: 5px;
   }
   
   #span03 {
-    transform-origin: bottom right;
+    margin-top: 5px;
+    transform-origin: 100% 100%;
   }
   
   div input:checked ~ #span01 {
