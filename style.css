@@ -130,10 +130,10 @@ input[type="button"] {
   
   .menu span {
     background: #7f8fa6;
-    height: 8px;
-    width: 55px;
-    margin-bottom: 10px;
-    border-radius: 4px;
+    height: 6px;
+    width: 35px;
+    margin-bottom: 8px;
+    border-radius: 3px;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
   }
