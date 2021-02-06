@@ -98,6 +98,12 @@ input[type="button"] {
   }
   
   .menu {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .menu input {
