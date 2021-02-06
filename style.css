@@ -136,8 +136,16 @@ input[type="button"] {
     -webkit-transition: all 0.5s;
   }
   
+  #span01 {
+    transform-origin: bottom left;
+  }
+  
   #span02 {
     margin: 6px 0;
+  }
+  
+  #span03 {
+    transform-origin: top left;
   }
   
   .menu_btn input:checked ~ #span01 {
