@@ -127,6 +127,12 @@ input[type="button"] {
   #span03 {
     transform-origin: bottom right;
   }
+  
+  div input:checked ~ #span01 {}
+  
+  div input:checked ~ #span02 {}
+  
+  div input:checked ~ #span03 {}
 }
 
 
