@@ -136,29 +136,25 @@ input[type="button"] {
     -webkit-transition: all 0.5s;
   }
   
-  .menu_btn span:before {
-    background: #000;
-    display: flex;
-    height: 2px;
-    width: 25px;
+  #span01 {
   }
   
-  .menu_btn span:after {
-    background: #000;
-    display: flex;
-    height: 2px;
-    width: 25px;
+  #span02 {
+    margin: 10px 0;
   }
   
-  .menu_btn input:checked ~ span {
-    opacity: 0;
+  #span03 {
   }
   
-  .menu_btn input:checked ~ span:before {
+  .menu_btn input:checked ~ #span01 {
     transform: rotate(45deg);
   }
   
-  .menu_btn input:checked ~ span:after {
+  .menu_btn input:checked ~ #span02 {
+    opacity: 0;
+  }
+  
+  .menu_btn input:checked ~ #span03 {
     transform: rotate(45deg);
   }
 }
