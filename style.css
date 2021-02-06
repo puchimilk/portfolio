@@ -120,11 +120,13 @@ input[type="button"] {
     -webkit-transition: all 0.5s;
   }
   
-  #span01 {}
+  #span01 {
+    transform-origin: top right;
+  }
   
-  #span02 {}
-  
-  #span03 {}
+  #span03 {
+    transform-origin: bottom right;
+  }
 }
 
 
