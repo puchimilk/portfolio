@@ -132,14 +132,18 @@ input[type="button"] {
     background: #7f8fa6;
     height: 6px;
     width: 35px;
-    margin-bottom: 8px;
     border-radius: 3px;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
   }
   
   #span01 {
+    margin-bottom: 5px;
     transform-origin: top right;
+  }
+  
+  #span02 {
+    margin-bottom: 5px;
   }
   
   #span03 {
