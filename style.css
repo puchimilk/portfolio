@@ -2,6 +2,7 @@ body {
   background: #ffffff;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -96,51 +97,24 @@ input[type="button"] {
   header {
   }
   
-  .menu_btn span,
-  .menu_btn span:before,
-  .menu_btn span:after {
-    background: #ffffff;
-    content: '';
-    display: block;
-    height: 3px;
-    width: 25px;
-    border-radius: 3px;
-    position: absolute;
-  }
-  
-  .menu_btn {
-    background: #3584bb;
-    display: flex;
-    height: 60px;
-    width: 60px;
-    top: 10px;
-    right: 10px;
-    z-index: 90;
-  }
-  
-  .menu_btn:before {
-    bottom: 8px;
-  }
-  
-  .menu_btn:after {
-    top: 8px;
-  }
-  
-  .menu_btn:active {
-  }
-  
-  .menu_btn:active:before {
-  }
-  
-  .menu_btn:active:after {
-  }
-  
   .menu {
   }
   
-  nav {
+  .menu input {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 1;
   }
   
-  nav li a {
-  }
+  #span01 {}
+  
+  #span02 {}
+  
+  #span03 {}
 }
+
+
