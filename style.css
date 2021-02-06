@@ -141,7 +141,7 @@ input[type="button"] {
   }
   
   .menu_btn input:checked ~ #span01 {
-    transform: rotate(-45deg) translateX(-2px) translateY(10px);
+    transform: rotate(-45deg) translateX(-6px) translateY(10px);
   }
   
   .menu_btn input:checked ~ #span02 {
@@ -149,7 +149,7 @@ input[type="button"] {
   }
   
   .menu_btn input:checked ~ #span03 {
-    transform: rotate(45deg) translateX(-2px) translateY(-10px);
+    transform: rotate(45deg) translateX(-6px) translateY(-10px);
   }
 }
 
