@@ -152,7 +152,7 @@ input[type="button"] {
   
   div input:checked ~ #span01 {
     background: #0c2461;
-    transform: rotate(-45deg) translateX(-8px) translateY(-8px);
+    transform: rotate(-45deg) translateX(-6px) translateY(-6px);
   }
   
   div input:checked ~ #span02 {
@@ -162,7 +162,7 @@ input[type="button"] {
   
   div input:checked ~ #span03 {
     background: #0c2461;
-    transform: rotate(45deg) translateX(-8px) translateY(8px);
+    transform: rotate(45deg) translateX(-6px) translateY(6px);
   }
 }
 
