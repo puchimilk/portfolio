@@ -157,7 +157,7 @@ input[type="button"] {
   
   div input:checked ~ #span02 {
     background: #0c2461;
-    opacity: 0;
+    opacity: 1;
   }
   
   div input:checked ~ #span03 {
