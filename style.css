@@ -100,8 +100,6 @@ input[type="button"] {
   .menu {
     display: flex;
     position: absolute;
-    top: 0;
-    right: 0;
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
