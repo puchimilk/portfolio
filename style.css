@@ -132,6 +132,8 @@ input[type="button"] {
     display: flex;
     height: 2px;
     width: 25px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
   }
   
   .menu_btn span:before {
