@@ -46,6 +46,14 @@ footer {
     width: 30px;
     position: absolute;
   }
+
+  #span01::before {
+    margin-bottom: 10px;
+  }
+
+  #span01::after {
+    margin-top: 10px;
+  }
   
   footer {
     background: #ffffff;
