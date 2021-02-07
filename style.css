@@ -40,12 +40,22 @@ footer {
     position: absolute;
   }
 
-  .menu_btn div:before {
+  .humberger,
+  .humberger:before,
+  .humberger:after {
+    background: #000;
+    border-radius: 4px;
+    position: absolute;
+    top: 4px;
+    left: 40px;
+  }
+
+  .humberger:before {
     top: 10px;
   }
 
-  .menu_btn div:after {
-    top: 20px;
+  .humberger:after {
+    top: -10px;
   }
   
   footer {
