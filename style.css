@@ -18,7 +18,8 @@ nav {
   /* display: block; */
   height: 50px;
   width: 50px;
-  position: absolute;
+  position: relative;
+  float: right;
 }
 
 .main {
