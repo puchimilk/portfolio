@@ -69,10 +69,6 @@ footer {
     bottom: 10px;
   }
   
-  .menu_btn input:checked ~ span {
-    opacity: 0;
-  }
-
   .menu_btn input:checked ~ span:before {
     transform: rotate(45deg);
   }
