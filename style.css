@@ -23,13 +23,13 @@ nav {
   float: right;
 }
 
-.hamburder {
+.hamburger {
   padding: 10px;
   height: 30px;
   width: 30px;
 }
 
-.hamburder input {
+.hamburger input {
   margin: 0;
   height: 100%;
   width: 100%;
