@@ -47,12 +47,22 @@ footer {
     position: absolute;
   }
 
-  #span01::before {
-    margin-bottom: 10px;
+  #span01:before {
+    background: #000000;
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 10px;
   }
 
-  #span01::after {
-    margin-top: 10px;
+  #span01:after {
+    background: #000000;
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
   }
   
   footer {
