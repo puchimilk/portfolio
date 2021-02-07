@@ -39,16 +39,17 @@ nav {
 .menu_btn,
 .menu_btn:before,
 .menu_btn:after {
-  background: #000;
+  content: '';
+  display: block;
   height: 4px;
   width: 30px;
-  border-radius: 4px;
   position: absolute;
+  border-radius: 4px;
   transition: all 0.5s;
-  -webkit-transition: all 0.5s;
 }
 
 .menu_btn {
+  display: flex;
 }
 
 .menu_btn:before {
