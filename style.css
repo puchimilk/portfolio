@@ -48,15 +48,15 @@ nav {
   transition: all 0.5s;
 }
 
-.menu_btn {
+.menu_btn span {
   display: flex;
 }
 
-.menu_btn:before {
+.menu_btn span:before {
   bottom: 8px;
 }
 
-.menu_btn:after {
+.menu_btn span:after {
   top: 8px;
 }
 
