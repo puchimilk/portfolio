@@ -34,7 +34,6 @@ footer {
 
   .menu_btn input {
     margin: 5px;
-    display: none;
     height: 40px;
     width: 40px;
     -webkit-tap-highlight-color: transparent;
@@ -70,6 +69,10 @@ footer {
     bottom: 10px;
   }
   
+  .menu_btn input:checked ~ span {
+    opacity: 0;
+  }
+
   .menu_btn input:checked ~ span:before {
     transform: rotate(45deg);
   }
