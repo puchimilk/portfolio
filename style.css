@@ -36,6 +36,16 @@ nav {
   -webkit-tap-highlight-color: transparent;
 }
 
+.menu_btn {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
 .menu_btn,
 .menu_btn:before,
 .menu_btn:after {
