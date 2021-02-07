@@ -42,12 +42,14 @@ footer {
   .menu_btn span {
     background: #000000;
     display: block;
-    height: 2px;
-    width: 30px;
+    height: 4px;
+    width: 40px;
+    border-radius: 4px;
     position: absolute;
+    transition: all 0.5s;
   }
 
-  #span01:before {
+  .menu_btn span:before {
     background: #000000;
     content: '';
     height: 100%;
@@ -56,7 +58,7 @@ footer {
     top: 10px;
   }
 
-  #span01:after {
+  .menu_btn span:after {
     background: #000000;
     content: '';
     height: 100%;
