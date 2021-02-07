@@ -50,6 +50,7 @@ nav {
   width: 30px;
   position: absolute;
   border-radius: 4px;
+  transition: all 0.5s;
 }
 
 .menu_btn span:before {
@@ -58,6 +59,20 @@ nav {
 
 .menu_btn span:after {
   top: 8px;
+}
+
+.hamburger input:checked ~ .menu_btn span {
+  background: transparent;
+}
+
+.hamburger input:checked ~ .menu_btn span:before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+.hamburger input:checked ~ .menu_btn span:after {
+  top: 0;
+  transform: rotate(-45deg);
 }
 
 .main {
