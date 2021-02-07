@@ -38,10 +38,12 @@ section {
 
 footer {
   /* display: block; */
+  padding: 10px 0;
 }
 
 #copyright {
   /* display: block; */
+  text-align: center;
 }
 
 /** 750px以下 **/
