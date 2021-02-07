@@ -38,6 +38,14 @@ footer {
     width: 40px;
     -webkit-tap-highlight-color: transparent;
   }
+
+  .menu_btn span {
+    background: #000000;
+    display: block;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+  }
   
   footer {
     background: #ffffff;
