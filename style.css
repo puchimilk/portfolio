@@ -67,12 +67,12 @@ nav {
 
 .hamburger input:checked ~ .menu_btn span:before {
   bottom: 0;
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
 }
 
 .hamburger input:checked ~ .menu_btn span:after {
   top: 0;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
 }
 
 .main {
