@@ -52,11 +52,11 @@ nav {
 }
 
 .menu_btn:before {
-  top: 10px;
+  bottom: 8px;
 }
 
 .menu_btn:after {
-  bottom: 10px;
+  top: 8px;
 }
 
 .main {
