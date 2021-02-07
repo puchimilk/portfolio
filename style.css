@@ -36,6 +36,25 @@ nav {
   -webkit-tap-highlight-color: transparent;
 }
 
+.menu_btn,
+.menu_btn:before,
+.menu_btn:after {
+  background: #000;
+  height: 4px;
+  width: 30px;
+}
+
+.menu_btn {
+}
+
+.menu_btn:before {
+  top: 10px;
+}
+
+.menu_btn:after {
+  bottom: 10px;
+}
+
 .main {
   background: #fff;
   /* display: block; */
