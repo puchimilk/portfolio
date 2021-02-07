@@ -52,20 +52,11 @@ footer {
   }
 
   .menu_btn span:before {
-    background: #000000;
-    content: '';
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    top: 10px;
   }
 
   .menu_btn span:after {
-    background: #000000;
-    content: '';
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    
+    top: 20px;
   }
   
   .menu_btn input:checked ~ span:before {
