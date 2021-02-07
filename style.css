@@ -52,10 +52,6 @@ nav {
   border-radius: 4px;
 }
 
-.menu_btn span {
-  display: flex;
-}
-
 .menu_btn span:before {
   bottom: 8px;
 }
