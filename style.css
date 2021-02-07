@@ -5,6 +5,41 @@ body {
   padding: 0;
 }
 
+/**
+header {
+  display: block;
+}
+**/
+
+/**
+nav {
+  display: block;
+}
+**/
+
+/**
+main {
+  display: block;
+}
+**/
+
+/**
+div {
+  display: block;
+}
+**/
+
+/**
+section {
+  display: block;
+}
+**/
+
+/**
+footer {
+  display: block;
+}
+**/
 
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
