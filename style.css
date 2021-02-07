@@ -1,3 +1,8 @@
+html {
+  /* height: 100%; */
+  /* width: 100%; */
+}
+
 body {
   background: #ffffff;
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -5,41 +10,33 @@ body {
   padding: 0;
 }
 
-/**
 header {
-  display: block;
+  /* display: block; */
 }
-**/
 
-/**
 nav {
-  display: block;
+  /* display: block; */
 }
-**/
 
-/**
 main {
-  display: block;
+  /* display: block; */
 }
-**/
 
-/**
 div {
-  display: block;
+  /* display: block; */
 }
-**/
 
-/**
+span {
+  /* display: inline; */
+}
+
 section {
-  display: block;
+  /* display: block; */
 }
-**/
 
-/**
 footer {
-  display: block;
+  /* display: block; */
 }
-**/
 
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
