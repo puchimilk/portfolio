@@ -43,13 +43,13 @@ nav {
 .menu_btn span,
 .menu_btn span:before,
 .menu_btn span:after {
+  background: #000;
   content: '';
   display: block;
   height: 4px;
   width: 30px;
   position: absolute;
   border-radius: 4px;
-  transition: all 0.5s;
 }
 
 .menu_btn span {
