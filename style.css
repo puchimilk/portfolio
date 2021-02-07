@@ -11,7 +11,9 @@ body {
 }
 
 header {
+  background: #eee;
   /* display: block; */
+  height: 50px;
 }
 
 nav {
