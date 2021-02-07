@@ -40,6 +40,10 @@ footer {
   /* display: block; */
 }
 
+footer .copyright {
+  /* display: block; */
+}
+
 /** 750px以下 **/
 @media screen and (max-width: 750px) {
 }
