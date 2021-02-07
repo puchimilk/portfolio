@@ -23,6 +23,12 @@ nav {
   float: right;
 }
 
+.hamburder {
+}
+
+.hamburder input {
+}
+
 .main {
   background: pink;
   /* display: block; */
