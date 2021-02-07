@@ -19,7 +19,9 @@ nav {
 }
 
 .main {
+  background: pink;
   /* display: block; */
+  height: 500px;
 }
 
 footer {
