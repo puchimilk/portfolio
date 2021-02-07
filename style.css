@@ -24,31 +24,25 @@ nav {
 }
 
 .hamburger {
-  padding: 10px;
-  height: 30px;
-  width: 30px;
 }
 
 .hamburger input {
-  margin: 0;
-  height: 100%;
-  width: 100%;
   -webkit-tap-highlight-color: transparent;
 }
 
 .menu_btn {
   display: flex;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   justify-content: center;
   align-items: center;
   position: relative;
   cursor: pointer;
 }
 
-.menu_btn,
-.menu_btn:before,
-.menu_btn:after {
+.menu_btn span,
+.menu_btn span:before,
+.menu_btn span:after {
   content: '';
   display: block;
   height: 4px;
