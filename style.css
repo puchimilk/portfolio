@@ -39,7 +39,9 @@ footer {
     -webkit-tap-highlight-color: transparent;
   }
 
-  .menu_btn span {
+  .menu_btn span,
+  .menu_btn span:before,
+  .menu_btn span:after {
     background: #000000;
     display: block;
     height: 4px;
