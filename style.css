@@ -36,22 +36,22 @@ nav {
   -webkit-tap-highlight-color: transparent;
 }
 
-.menu_btn,
-.menu_btn:before,
-.menu_btn:after {
+.hamburger input,
+.hamburger input:before,
+.hamburger input:after {
   background: #000;
   height: 4px;
   width: 30px;
 }
 
-.menu_btn {
+.hamburger input {
 }
 
-.menu_btn:before {
+.hamburger input:before {
   top: 10px;
 }
 
-.menu_btn:after {
+.hamburger input:after {
   bottom: 10px;
 }
 
