@@ -70,6 +70,14 @@ footer {
     bottom: 10px;
   }
   
+  .menu_btn input:checked ~ span:before {
+    transform: rotate(45deg);
+  }
+
+  .menu_btn input:checked ~ span:after {
+    transform: rotate(90deg);
+  }
+
   footer {
     background: #ffffff;
   }
