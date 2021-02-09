@@ -70,8 +70,7 @@ header {
 
 .main {
   background: #fff;
-  /* display: block; */
-  height: 500px;
+  padding: 0 10%;
 }
 
 footer {
