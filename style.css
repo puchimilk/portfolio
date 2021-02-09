@@ -80,6 +80,10 @@ nav {
   transform: rotate(45deg);
 }
 
+.menu ul {
+  list-style-type: none;
+}
+
 .main {
   background: #fff;
   /* display: block; */
