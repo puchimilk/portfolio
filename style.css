@@ -19,12 +19,13 @@ header {
   font-family: 'M PLUS 1p', sans-serif;
   font-size: 18px;
   line-height: 30px;
-  float: left;
   padding: 10px;
   position: relative;
+  float: left;
 }
 
 .menu {
+  position: relative;
   float: right;
 }
 
