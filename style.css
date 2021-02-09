@@ -23,9 +23,6 @@ nav {
   float: right;
 }
 
-.hamburger {
-}
-
 .hamburger input {
   /** display: flex; **/
   height: 50px;
