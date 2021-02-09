@@ -35,7 +35,7 @@ nav {
   position: absolute;
   /** overflow: hidden; **/
   opacity: 0;
-  z-index: 1;
+  z-index: 3;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -46,6 +46,7 @@ nav {
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 2;
   cursor: pointer;
 }
 
@@ -95,7 +96,7 @@ nav {
   position: fixed;
   top: 0;
   left: 100%;
-  z-index: 80;
+  z-index: 1;
   transition: all 0.5s;
 }
 
