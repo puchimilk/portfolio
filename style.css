@@ -21,6 +21,10 @@ header {
   padding: 10px;
 }
 
+.menu input {
+  display: none;
+}
+
 .menu_content {
   text-decoration: none;
 }
