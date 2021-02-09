@@ -82,9 +82,12 @@ nav {
 
 .menu {
   background: yellow;
+  height: 200px;
+  width: 200px;
 }
 
 .menu ul {
+  padding: 0;
 }
 
 .menu ul li {
