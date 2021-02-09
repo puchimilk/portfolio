@@ -13,11 +13,14 @@ header {
   height: 50px;
 }
 
+.logo {
+  font-size: 18px;
+  line-height: 30px;
+  float: left;
+  padding: 10px;
+}
+
 nav {
-  /* background: #e5e5e5; */
-  /* height: 50px; */
-  /* width: 50px; */
-  /* position: relative; */
   float: right;
 }
 
