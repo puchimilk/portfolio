@@ -40,6 +40,7 @@ nav {
 }
 
 .menu_btn {
+  background: #e5e5e5;
   display: flex;
   height: 100%;
   width: 100%;
