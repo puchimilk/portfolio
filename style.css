@@ -80,6 +80,10 @@ nav {
   transform: rotate(45deg);
 }
 
+.hamburger input:checked ~ .menu {
+  left: 0;
+}
+
 .menu {
   background: yellow;
   height: 100%;
