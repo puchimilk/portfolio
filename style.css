@@ -110,6 +110,9 @@ nav {
   position: relative;
 }
 
+.menu ul li a::before {
+}
+
 .main {
   background: #fff;
   /* display: block; */
