@@ -21,6 +21,10 @@ header {
   padding: 10px;
 }
 
+.menu {
+  float: right;
+}
+
 .menu input {
   display: none;
 }
