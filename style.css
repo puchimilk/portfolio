@@ -29,6 +29,10 @@ header {
   display: none;
 }
 
+.menu_btn {
+  display: none;
+}
+
 .menu_content {
   height: 50px;
   text-decoration: none;
