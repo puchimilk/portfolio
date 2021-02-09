@@ -33,6 +33,13 @@ header {
   text-decoration: none;
 }
 
+.menu_content ul {
+  list-style: none;
+}
+
+.menu_content ul li {
+}
+
 .menu_content ul li a {
   text-decoration: none;
 }
