@@ -81,6 +81,7 @@ nav {
 }
 
 .menu {
+  background: yellow;
 }
 
 .menu ul {
@@ -92,6 +93,7 @@ nav {
 
 .menu ul li a {
   text-decoration: none;
+  width: 200px;
 }
 
 .main {
