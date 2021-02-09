@@ -111,6 +111,15 @@ nav {
 }
 
 .menu ul li a::before {
+  content: '';
+  height: 7px;
+  width: 7px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 16px;
+  right: 11px;
 }
 
 .main {
