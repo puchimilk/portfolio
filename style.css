@@ -7,28 +7,3 @@ body {
   margin: 20px;
   padding: 20px;
 }
-
-.btn {
-}
-
-.btn a {
-  color: #fff;
-  background: orange;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-  border: 1px solid #000;
-  border-radius: 10px;
-  transition: all 0.5s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-
-.btn a:hover {
-  transform: scale(1.2) rotate(0);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
