@@ -3,7 +3,49 @@ html {
 }
 
 body {
-  background: rgb(255, 255, 255);
+  background: #fff;
   margin: 0;
   padding: 0;
+}
+
+header {
+  background: pink;
+  font-family: 'Mplus 1p';
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.5rem;
+  padding: 0 2rem;
+}
+
+#logo {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 7.5rem;
+}
+
+.menu_content ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.menu_content ul li a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 5.5rem;
 }
