@@ -3,13 +3,13 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #ffffff;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: pink;
+  background: #eeeeee;
   font-family: 'Mplus 1p';
   display: flex;
   flex-direction: row;
@@ -23,11 +23,12 @@ header {
   color: #fff;
   font-size: 1.2rem;
   font-weight: 900;
+  letter-spacing: 0.05rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 1.5rem;
-  width: 7.5rem;
+  height: 1.2rem;
+  width: 8rem;
 }
 
 .menu_content ul {
@@ -42,10 +43,16 @@ header {
   color: #fff;
   font-size: 1rem;
   font-weight: 800;
+  letter-spacing: 0.05rem;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 1.5rem;
-  width: 5.5rem;
+  width: 6rem;
+}
+
+main {
+  font-size: 1.2rem;
+  padding: 1rem 8rem;
 }
