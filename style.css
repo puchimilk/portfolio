@@ -8,51 +8,30 @@ body {
   padding: 0;
 }
 
-header {
-  background: #eeeeee;
-  font-family: 'Mplus 1p';
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 2.5rem;
-  padding: 0 2rem;
+*,
+*::before,
+*::after {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
-#logo {
-  color: #000000;
-  font-size: 1.2rem;
-  font-weight: 900;
-  letter-spacing: 0.05rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 1.2rem;
-  width: 8rem;
-}
-
-.menu_content ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
+.logo {
   margin: 0;
-  padding: 0;
 }
 
-.menu_content ul li a {
+.logo a {
   color: #000000;
-  font-size: 1rem;
-  font-weight: 800;
-  letter-spacing: 0.05rem;
   text-decoration: none;
   display: flex;
+  height: 2rem;
+  width: 6rem;
   align-items: center;
   justify-content: center;
-  height: 1.5rem;
-  width: 6rem;
+  border: 1px solid #000000;
+  transition: all 0.5s;
 }
 
-main {
-  font-size: 1.2rem;
-  padding: 1rem 8rem;
+.logo a:hover {
+  color: #ff0000;
+  transform: scale(1.1) scale3d(1, 1, 1);
 }
