@@ -68,3 +68,26 @@ header {
   color: #0000ff;
   background: #6495ed;
 }
+
+main {
+  padding: 1rem 5rem;
+}
+
+.works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.works1 {
+  background: greenyellow;
+  height: 10rem;
+  width: 50%;
+  float: left;
+}
+
+.works2 {
+  background: pink;
+  height: 10rem;
+  width: 50%;
+}
