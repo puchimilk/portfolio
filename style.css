@@ -7,19 +7,38 @@ body {
 }
 
 header {
-  background: red;
+  background: #ffe0e0;
   height: 140px;
   margin: 0;
 }
 
+header div {
+  margin: 0;
+}
+
+header div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header div ul li {
+  display: inline-block;
+}
+
+header div ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
 main {
-  background: yellow;
+  background: #ffffe0;
   height: 800px;
   margin: 0;
 }
 
 footer {
-  background: green;
+  background: #e0ffe0;
   height: 140px;
   margin: 0;
 }
