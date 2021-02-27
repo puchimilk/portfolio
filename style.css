@@ -3,91 +3,14 @@ html {
 }
 
 body {
-  background: #ffffff;
   margin: 0;
-  padding: 0;
 }
 
 header {
-  background: #ffff00;
-  display: flex;
-  justify-content: space-between;
-  height: 2rem;
-  padding: 0 10px;
-}
-
-.logo {
-  background: #ff69b4;
-  font-size: 1.2rem;
-  display: block;
-}
-
-.logo a {
-  color: #000000;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
-  height: 2rem;
-  width: 8rem;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s;
-}
-
-.logo a:hover {
-  color: #ff0000;
-}
-
-.menu {
-  background: #adff2f;
-  display: block;
-}
-
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-}
-
-.menu ul li a {
-  color: #008000;
-  font-size: 1rem;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2rem;
-  width: 6rem;
-  transition: all 0.5s;
-}
-
-.menu ul li a:hover {
-  color: #0000ff;
-  background: #6495ed;
 }
 
 main {
-  padding: 1rem 5rem;
 }
 
-.works {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.works1 {
-  background: greenyellow;
-  height: 10rem;
-  width: 50%;
-  float: left;
-}
-
-.works2 {
-  background: pink;
-  height: 10rem;
-  width: 50%;
+footer {
 }
