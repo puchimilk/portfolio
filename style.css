@@ -12,23 +12,27 @@ header {
   margin: 0;
 }
 
-header div {
+.menu {
   margin: 0;
 }
 
-header div ul {
+.menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-header div ul li {
+.menu ul li {
   display: inline-block;
 }
 
-header div ul li a {
+.menu ul li a {
   color: #000000;
   text-decoration: none;
+}
+
+.menu_btn {
+  display: none;
 }
 
 main {
@@ -41,4 +45,25 @@ footer {
   background: #e0ffe0;
   height: 140px;
   margin: 0;
+}
+
+@media (max-width:414px) {
+  header {
+    background: #ffbcbc;
+  }
+  
+  .menu_btn {
+    background: #bcddff;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+  }
+  
+  main {
+    background: #ffffbc;
+  }
+  
+  footer {
+    background: #bcffbc;
+  }
 }
