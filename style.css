@@ -7,13 +7,16 @@ body {
 }
 
 header {
+  background: red;
   margin: 0;
 }
 
 main {
+  background: yellow;
   margin: 0;
 }
 
 footer {
+  background: green;
   margin: 0;
 }
