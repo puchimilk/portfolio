@@ -8,18 +8,18 @@ body {
 
 header {
   background: red;
-  height: 100px;
+  height: 140px;
   margin: 0;
 }
 
 main {
   background: yellow;
-  height: 600px;
+  height: 800px;
   margin: 0;
 }
 
 footer {
   background: green;
-  height: 100px;
+  height: 140px;
   margin: 0;
 }
