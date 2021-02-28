@@ -73,7 +73,12 @@ footer {
 @media (max-width:414px) {
   header {
     background: #ffbcbc;
-    padding: 0 0 0 20px;
+    height: 50px;
+    padding-right: 0;
+  }
+
+  #logo a {
+    font-size: 20px;
   }
   
   .menu {
@@ -97,8 +102,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     position: relative;
   }
   
@@ -117,7 +122,7 @@ footer {
     content: '';
     background: #000000;
     display: inline-block;
-    height: 5px;
+    height: 4px;
     width: 30px;
     position: absolute;
     transition: all 0.5s;
