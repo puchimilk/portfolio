@@ -117,17 +117,17 @@ footer {
     content: '';
     background: #000000;
     display: inline-block;
-    height: 5px;
+    height: 3px;
     width: 30px;
     position: absolute;
   }
   
   .menu_btn span:before {
-    bottom: 10px;
+    bottom: 8px;
   }
   
   .menu_btn span:after {
-    top: 10px;
+    top: 8px;
   }
   
   main {
