@@ -18,7 +18,7 @@ header {
   padding: 0 20px;
 }
 
-#logo a {
+.logo a {
   color: #000000;
   font-size: 18px;
   font-weight: bold;
@@ -45,12 +45,13 @@ header {
 .menu ul li a {
   color: #000000;
   background: #e0efff;
+  font-weight: bold;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 25px;
-  width: 80px;
+  width: 100px;
 }
 
 .menu_btn {
@@ -72,6 +73,7 @@ footer {
 @media (max-width:414px) {
   header {
     background: #ffbcbc;
+    padding: 0 0 0 20px;
   }
   
   .menu {
