@@ -73,7 +73,6 @@ footer {
 @media (max-width:414px) {
   header {
     background: #ffbcbc;
-    padding: 0 0 0 20px;
   }
   
   .menu {
@@ -108,6 +107,7 @@ footer {
     width: 40px;
     opacity: 0;
     position: absolute;
+    -webkit-tap-highlight: ;
   }
   
   .menu_btn span,
