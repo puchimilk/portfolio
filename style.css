@@ -76,6 +76,10 @@ footer {
     height: 50px;
     padding-right: 0;
   }
+
+  #logo a {
+    font-size: 20px;
+  }
   
   .menu {
     display: none;
@@ -124,11 +128,11 @@ footer {
   }
   
   .menu_btn span:before {
-    bottom: 8px;
+    bottom: 10px;
   }
   
   .menu_btn span:after {
-    top: 8px;
+    top: 10px;
   }
   
   main {
