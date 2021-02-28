@@ -94,27 +94,39 @@ footer {
   
   .menu_btn {
     background: #bcddff;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 40px;
-    padding: 5px;
+    position: relative;
   }
   
   .menu_btn input {
+    margin: 0;
     height: 40px;
     width: 40px;
-    margin: 0;
     opacity: 0;
+    position: absolute;
   }
   
   .menu_btn span,
   .menu_btn span:before,
   .menu_btn span:after {
+    content: '';
     background: #000000;
     display: inline-block;
     height: 5px;
-    width: 40px;
+    width: 30px;
     position: absolute;
+  }
+  
+  .menu_btn span:before {
+    bottom: 10px;
+  }
+  
+  .menu_btn span:after {
+    top: 10px;
   }
   
   main {
