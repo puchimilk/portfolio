@@ -109,10 +109,19 @@ footer {
   
   .menu_btn input {
     margin: 0;
-    height: 40px;
-    width: 40px;
-    opacity: 0.5;
+    height: 50px;
+    width: 50px;
     position: absolute;
+    opacity: 0;
+    z-index: 10;
+  }
+  
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
   }
   
   .hamburger span,
@@ -141,10 +150,12 @@ footer {
   
   .menu_btn input:checked ~ .hamburger span:before {
     bottom: 0;
+    transform: rotate(45deg);
   }
   
   .menu_btn input:checked ~ .hamburger span:after {
     top: 0;
+    transform: rotate(-45deg);
   }
   
   main {
