@@ -12,9 +12,17 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  height: 140px;
+  justify-content: space-between;
+  height: 40px;
   margin: 0;
+  padding: 0 20px;
+}
+
+#logo a {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .menu {
