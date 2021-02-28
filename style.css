@@ -141,12 +141,10 @@ footer {
   
   .menu_btn input:checked ~ .hamburger span:before {
     bottom: 0;
-    transform: rotate(45deg);
   }
   
   .menu_btn input:checked ~ .hamburger span:after {
     top: 0;
-    transform: rotate(-45deg);
   }
   
   main {
