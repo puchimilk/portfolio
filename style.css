@@ -77,9 +77,7 @@ footer {
   }
   
   .menu {
-    margin: 0;
     display: none;
-    position: fixed;
   }
   
   .menu ul {
@@ -103,8 +101,8 @@ footer {
   }
   
   .menu_btn input {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     margin: 0;
     opacity: 0;
   }
