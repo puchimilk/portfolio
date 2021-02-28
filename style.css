@@ -106,27 +106,43 @@ footer {
     margin: 0;
     height: 40px;
     width: 40px;
-    opacity: 0;
+    opacity: 0.5;
     position: absolute;
+    z-index: 10;
   }
   
-  .menu_btn span,
-  .menu_btn span:before,
-  .menu_btn span:after {
+  .hamburger span,
+  .hamburger span:before,
+  .hamburger span:after {
     content: '';
     background: #000000;
     display: inline-block;
     height: 5px;
     width: 30px;
     position: absolute;
+    transition: all 0.5s;
   }
   
-  .menu_btn span:before {
+  .hamburger span:before {
     bottom: 10px;
   }
   
-  .menu_btn span:after {
+  .hamburger span:after {
     top: 10px;
+  }
+  
+  .menu_btn input:checked ~ .hamburger span {
+    background: transparent;
+  }
+  
+  .menu_btn input:checked ~ .hamburger span:before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  
+  .menu_btn input:checked ~ .hamburger span:after {
+    top: 0;
+    transform: rotate(-45deg);
   }
   
   main {
