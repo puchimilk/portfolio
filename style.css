@@ -73,6 +73,7 @@ footer {
 @media (max-width:414px) {
   header {
     background: #ffbcbc;
+    padding-right: 0;
   }
   
   .menu {
