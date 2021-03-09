@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: 'Mplus 1p', sans-serif;
+  font-size: 16px;
 }
 
 li {
@@ -22,12 +23,21 @@ header {
 }
 
 .box1 {
-  padding: 8px 16px 0;
+  padding: 8px 32px;
 }
 
 .box2 {
   background: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 .logo a {
@@ -38,6 +48,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 32px;
+  width: 144px;
 }
 
 .menu ul {
@@ -62,12 +73,39 @@ main {
 }
 
 .box3 {
-  padding: 72px 16px 0;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 48px;
 }
 
 .box4 {
   background: pink;
   height: 800px;
-  margin-top: -72px;
-  padding-top: 72px;
+  margin-top: -48px;
+  padding-top: 48px;
+}
+
+.box4 h2 {
+  text-align: center;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (max-width: 765px) {
+  .box2 {
+    flex-direction: column;
+  }
+  
+  .box3 {
+    max-width: 400px;
+    padding-top: 80px;
+  }
+  
+  .box4 {
+    margin-top: -80px;
+    padding-top: 80px;
+  }
 }
