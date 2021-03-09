@@ -27,6 +27,46 @@ header {
 
 .box2 {
   background: yellow;
-  height: 32px;
   width: 100%;
+}
+
+.logo a {
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul li a {
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 96px;
+}
+
+main {
+  background: green;
+}
+
+.box3 {
+  padding: 72px 16px 0;
+}
+
+.box4 {
+  background: pink;
+  height: 500px;
+  margin-top: -72px;
+  padding-top: 72px;
 }
