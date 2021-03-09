@@ -14,3 +14,19 @@ li {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background: red;
+  width: 100%;
+  position: fixed;
+}
+
+.box1 {
+  padding: 8px 16px 0;
+}
+
+.box2 {
+  background: yellow;
+  height: 32px;
+  width: 100%;
+}
