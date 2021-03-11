@@ -18,94 +18,100 @@ li {
 
 header {
   background: red;
+  height: 64px;
   width: 100%;
   position: fixed;
-}
-
-.box1 {
-  padding: 8px 32px;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .box2 {
-  background: yellow;
+  background: royalblue;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  width: 100%;
+  height: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.ti {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 0;
 }
 
 .logo {
+  color: blue;
   font-size: 24px;
-  display: flex;
-  justify-content: center;
-}
-
-.logo a {
-  color: #000000;
-  font-size: 24px;
-  text-decoration: none;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 32px;
   width: 144px;
+  text-decoration: none;
 }
 
 .menu ul {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .menu ul li a {
-  color: #000000;
+  color: blue;
+  font-weight: 500;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 32px;
-  width: 96px;
+  width: 64px;
+}
+
+.menu ul li a:active {
+  color: blue;
 }
 
 main {
-  background: green;
+  background: yellow;
+  width: 100%;
+  margin-top: 64px;
 }
 
-.box3 {
-  max-width: 800px;
+.box1 {
+  height: calc(100vh - 64px);
+  max-width: 90%;
   margin: 0 auto;
-  padding-top: 48px;
-}
-
-.box4 {
-  background: pink;
-  height: 800px;
-  margin-top: -48px;
-  padding-top: 48px;
-}
-
-.box4 h2 {
-  text-align: center;
 }
 
 .copyright {
   font-size: 12px;
-  text-align: center;
 }
 
-@media screen and (max-width: 765px) {
+#sec1 {
+  background: pink;
+}
+
+#sec2 {
+  background: rebeccapurple;
+}
+
+#sec3 {
+  background: rosybrown;
+}
+
+footer {
+  background: green;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
   .box2 {
     flex-direction: column;
-  }
-  
-  .box3 {
-    max-width: 400px;
-    padding-top: 80px;
-  }
-  
-  .box4 {
-    margin-top: -80px;
-    padding-top: 80px;
   }
 }

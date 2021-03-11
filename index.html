@@ -6,60 +6,57 @@
     <title>Home</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('a[href^="#"]').click(function() {
+          var header = $('header').height();
+          var speed = 500;
+          var href = $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top - header;
+          $("html,body").animate({scrollTop:position}, speed, "swing");
+          return false;
+        });
+      });
+    </script>
   </head>
   <body>
     <header>
-      <div class="box1">
-        <div class="box2">
-          <div class="logo">
-            <a href="#logo">PORTFOLIO</a>
-          </div>
-          <div class="menu">
-            <ul>
-              <li>
-                <a href="#link1">LINK1</a>
-              </li>
-              <li>
-                <a href="#link2">LINK2</a>
-              </li>
-              <li>
-                <a href="#link3">LINK3</a>
-              </li>
-            </ul>
-          </div>
+      <div class="box2">
+        <div class="logo">PORTFOLIO</div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="#sec1">ABOUT</a>
+            </li>
+            <li>
+              <a href="#sec2">SKILL</a>
+            </li>
+            <li>
+              <a href="#sec3">WORKS</a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
     <main>
-      <div class="box3">
-        <section id="link1" class="box4">
-          <h2>LINK1</h2>
-          <div>Hello World!</div>
-        </section>
-        <section id="link2" class="box4">
-          <h2>LINK2</h2>
-          <div>大阪府出身</div>
-        </section>
-        <section id="link3" class="box4">
-          <h2>LINK3</h2>
-          <div>Hello</div>
-        </section>
-      </div>
+      <section id="sec1" class="box1">
+        <div class="ti">ABOUT</div>
+        <div></div>
+      </section>
+      <section id="sec2" class="box1">
+        <div class="ti">SKILL</div>
+        <div></div>
+      </section>
+      <section id="sec3" class="box1">
+        <div class="ti">WORKS</div>
+        <div></div>
+      </section>
     </main>
     <footer>
       <div class="copyright">Copyright © 2021 Kiyoka Kaneshi</div>
     </footer>
     <script>
-      $(function() {
-        $('a[href^="#"]').click(function() {
-          var speed = 500;
-          var href = $(this).attr("href");
-          var target = $(href == "#" || href == "" ? 'html' : href);
-          var position = target.offset().top;
-          $('html,body').animate({scrollTop:position}, speed, 'swing');
-          return false;
-        });
-      });
     </script>
   </body>
 </html>
