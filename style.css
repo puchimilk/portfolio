@@ -98,7 +98,7 @@ header {
 main {
   background: yellow;
   width: 100%;
-  margin-top: 64px;
+  padding-top: 64px;
 }
 
 .box1 {
