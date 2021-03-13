@@ -22,36 +22,44 @@
   </head>
   <body>
     <header>
-      <div class="box2">
+      <div class="space row">
         <div class="logo">PORTFOLIO</div>
-        <div class="menu">
-          <ul>
-            <li>
-              <a href="#sec1">ABOUT</a>
-            </li>
-            <li>
-              <a href="#sec2">SKILL</a>
-            </li>
-            <li>
-              <a href="#sec3">WORKS</a>
-            </li>
-          </ul>
+        <div class="humburger-menu">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="humburger">
+            <span></span>
+          </label>
+          <div class="menu-content">
+            <ul class="column">
+              <li>
+                <a href="#sec1">ABOUT</a>
+              </li>
+              <li>
+                <a href="#sec2">SKILL</a>
+              </li>
+              <li>
+                <a href="#sec3">WORKS</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
     <main>
-      <section id="sec1" class="box1">
-        <div class="ti">ABOUT</div>
-        <div></div>
-      </section>
-      <section id="sec2" class="box1">
-        <div class="ti">SKILL</div>
-        <div></div>
-      </section>
-      <section id="sec3" class="box1">
-        <div class="ti">WORKS</div>
-        <div></div>
-      </section>
+      <div class="space column">
+        <section id="sec1" class="section-height">
+          <div class="ti">ABOUT</div>
+          <div></div>
+        </section>
+        <section id="sec2" class="section-height">
+          <div class="ti">SKILL</div>
+          <div></div>
+        </section>
+        <section id="sec3" class="section-height">
+          <div class="ti">WORKS</div>
+          <div></div>
+        </section>
+      </div>
     </main>
     <footer>
       <div class="copyright">Copyright © 2021 Kiyoka Kaneshi</div>

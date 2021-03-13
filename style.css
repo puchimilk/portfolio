@@ -30,7 +30,8 @@ li {
 
 header {
   background: red;
-  height: 64px;
+  display: flex;
+  height: 48px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -38,14 +39,21 @@ header {
   z-index: 100;
 }
 
-.box2 {
+.space {
   background: royalblue;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  height: 100%;
-  max-width: 90%;
+  width: 90%;
   margin: 0 auto;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
 }
 
 .ti {
@@ -66,21 +74,79 @@ header {
   align-items: center;
   justify-content: flex-start;
   height: 32px;
-  width: 25%;
   text-decoration: none;
 }
 
-.menu {
-  width: 75%;
-}
-
-.menu ul {
+.humburger {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  position: relative;
+  cursor: pointer;
+  z-index: 10;
 }
 
-.menu ul li a {
+.humburger span,
+.humburger span::before,
+.humburger span::after {
+  content: '';
+  background: #000;
+  display: block;
+  height: 4px;
+  width: 28px;
+  border-radius: 4px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.humburger span::before {
+  bottom: 8px;
+}
+
+.humburger span::after {
+  top: 8px;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .humburger span {
+  background: transparent;
+}
+
+#menu-toggle:checked ~ .humburger span::before {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+#menu-toggle:checked ~ .humburger span::after {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+#menu-toggle:checked ~ .menu-content {
+  right: 0;
+}
+
+.menu-content {
+  background: greenyellow;
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  top: 0;
+  right: -40%;
+  transition: all 0.5s;
+}
+
+.menu-content ul {
+  display: flex;
+  padding: 48px 16px 0;
+}
+
+.menu-content ul li a {
   color: blue;
   font-weight: 500;
   text-decoration: none;
@@ -91,24 +157,26 @@ header {
   width: 80px;
 }
 
-.menu ul li a:active {
+.menu-content ul li a:active {
   color: blue;
 }
 
 main {
   background: yellow;
   width: 100%;
-  padding-top: 64px;
+  padding-top: 48px;
 }
 
-.box1 {
-  height: calc(100vh - 64px);
-  max-width: 90%;
-  margin: 0 auto;
+.section-height {
+  height: calc(100vh - 48px);
 }
 
 .copyright {
   font-size: 12px;
+}
+
+section {
+  width: 100%;
 }
 
 #sec1 {
