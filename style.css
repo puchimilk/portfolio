@@ -28,8 +28,9 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-left: 18px;
-  padding-right: 8px;
+  height: 100%;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .logo {
@@ -37,66 +38,13 @@ header {
   font-weight: bold;
 }
 
-#btn-toggle {
+.menu-btn {
   display: none;
-}
-
-.btn-label {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 48px;
-  width: 48px;
-}
-
-.btn-label span,
-.btn-label span::before,
-.btn-label span::after {
-  content: '';
-  background: #000000;
-  display: block;
-  height: 4px;
-  width: 28px;
-  position: absolute;
-  transition: all 0.5s;
-  z-index: 100;
-}
-
-.btn-label span::before {
-  bottom: 8px;
-}
-
-.btn-label span::after {
-  top: 8px;
-}
-
-#btn-toggle:checked ~ .btn-label span {
-  background: transparent;
-}
-
-#btn-toggle:checked ~ .btn-label span::before {
-  bottom: 0;
-  transform: rotate(-45deg);
-}
-
-#btn-toggle:checked ~ .btn-label span::after { 
-  top: 0;
-  transform: rotate(45deg);
-}
-
-.menu-content {
-  background: #ffffff;
-  display: none;
-  width: 100%;
-  border-bottom: 1px solid #e5e5e5;
-  position: absolute;
-  top: 49px;
-  left: 0;
 }
 
 .menu-content ul {
-  padding: 16px 32px;
+  display: flex;
+  flex-direction: row;
 }
 
 .menu-content ul li {
@@ -105,13 +53,13 @@ header {
 
 .menu-content ul li a {
   color: #000000;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 32px;
-  width: 100%;
+  width: 96px;
 }
 
 main {
@@ -134,6 +82,12 @@ section {
   padding: 8px 0;
 }
 
+#star-icon {
+  fill: aquamarine;
+  height: 24px;
+  width: 24px;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -142,4 +96,78 @@ footer {
 
 .copyright {
   font-size: 12px;
+}
+
+@media screen and (max-width: 800px) {  
+  .menu-btn {
+    display: block;
+  }
+
+  #btn-toggle {
+    display: none;
+  }
+
+  .btn-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 28px;
+  }
+
+  .btn-label span,
+  .btn-label span::before,
+  .btn-label span::after {
+    content: '';
+    background: #000000;
+    display: block;
+    height: 4px;
+    width: 28px;
+    position: absolute;
+    transition: all 0.5s;
+    z-index: 100;
+  }
+
+  .btn-label span::before {
+    bottom: 8px;
+  }
+
+  .btn-label span::after {
+    top: 8px;
+  }
+
+  #btn-toggle:checked ~ .btn-label span {
+    background: transparent;
+  }
+
+  #btn-toggle:checked ~ .btn-label span::before {
+    bottom: 0;
+    transform: rotate(-45deg);
+  }
+
+  #btn-toggle:checked ~ .btn-label span::after { 
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  .menu-content {
+    background: #ffffff;
+    display: none;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    position: absolute;
+    top: 49px;
+    left: 0;
+  }
+
+  .menu-content ul {
+    flex-direction: column;
+    padding: 8px 32px;
+  }
+
+  .menu-content ul li a {
+    font-size: 18px;
+    width: 100%;
+  }
 }
