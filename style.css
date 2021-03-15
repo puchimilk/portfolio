@@ -1,26 +1,6 @@
-@font-face {  
-  font-family: 'Noto Sans JP';
-  src: url('font/NotoSansJP-Medium.otf') format('opentype');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Noto Sans JP';
-  src: url('font/NotoSansJP-Bold.otf') format('opentype');
-  font-weight: 700;
-}
-
 html {
-  overflow: scroll;
-}
-
-body {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 16px;
-}
-
-li {
-  list-style-type: none;
+  height: 100%;
+  margin: 0;
 }
 
 * {
@@ -28,171 +8,25 @@ li {
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
 header {
-  background: red;
-  display: flex;
-  height: 48px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
-
-.space {
-  background: royalblue;
-  display: flex;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.row {
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.column {
-  flex-direction: column;
-}
-
-.ti {
-  font-size: 24px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 32px;
-  padding: 8px 0;
 }
 
 .logo {
-  color: blue;
-  font-size: 24px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  height: 32px;
-  text-decoration: none;
-}
-
-.humburger {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 48px;
-  width: 48px;
-  position: relative;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.humburger span,
-.humburger span::before,
-.humburger span::after {
-  content: '';
-  background: #000;
-  display: block;
-  height: 4px;
-  width: 28px;
-  border-radius: 4px;
-  position: absolute;
-  transition: all 0.5s;
-}
-
-.humburger span::before {
-  bottom: 8px;
-}
-
-.humburger span::after {
-  top: 8px;
-}
-
-#menu-toggle {
-  display: none;
-}
-
-#menu-toggle:checked ~ .humburger span {
-  background: transparent;
-}
-
-#menu-toggle:checked ~ .humburger span::before {
-  bottom: 0;
-  transform: rotate(-45deg);
-}
-
-#menu-toggle:checked ~ .humburger span::after {
-  top: 0;
-  transform: rotate(45deg);
-}
-
-#menu-toggle:checked ~ .menu-content {
-  right: 0;
-}
-
-.menu-content {
-  background: greenyellow;
-  height: 100%;
-  width: 40%;
-  position: fixed;
-  top: 0;
-  right: -40%;
-  transition: all 0.5s;
-}
-
-.menu-content ul {
-  display: flex;
-  padding: 48px 16px 0;
-}
-
-.menu-content ul li a {
-  color: blue;
-  font-weight: 500;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 32px;
-  width: 80px;
-}
-
-.menu-content ul li a:active {
-  color: blue;
 }
 
 main {
-  background: yellow;
-  width: 100%;
-  padding-top: 48px;
-}
-
-.section-height {
-  height: calc(100vh - 48px);
-}
-
-.copyright {
-  font-size: 12px;
 }
 
 section {
-  width: 100%;
-}
-
-#sec1 {
-  background: pink;
-}
-
-#sec2 {
-  background: rebeccapurple;
-}
-
-#sec3 {
-  background: rosybrown;
 }
 
 footer {
-  background: green;
-  text-align: center;
-  width: 100%;
+}
+
+.copyright {
 }
