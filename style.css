@@ -29,10 +29,11 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-left: 18px;
+  padding-right: 8px;
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -122,7 +123,7 @@ section {
 }
 
 .section-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -132,6 +133,9 @@ section {
 }
 
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .copyright {

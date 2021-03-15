@@ -66,10 +66,13 @@
     </footer>
     <script>
       $(function() {
-        // 開くと閉じるが逆になっている
-        $('#btn-toggle').on('click', function() {
+        $('.btn-label').on('click', function() {
           $('.menu-content').slideToggle();
           $('.menu-content').toggleClass('active');
+        });
+        $('a[href^="#"]').on('click', function() {
+          $('.menu-content').slideToggle();
+          $('.menu-content').removeClass('active');
         });
         $('a[href^="#"]').on('click', function() {
           var header = $('header').height();
