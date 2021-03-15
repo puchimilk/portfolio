@@ -75,7 +75,7 @@
           $('.menu-content').removeClass('active');
         });
         $('a[href^="#"]').on('click', function() {
-          var header = $('header').height();
+          var header = $('header').outerHeight();
           var speed = 500;
           var href = $(this).attr('href');
           var target = $(href == '#' || href == '' ? 'html' : href);
