@@ -23,7 +23,25 @@
   <body>
     <header>
       <div class="logo">PORTFOLIO</div>
-      <nav></nav>
+      <div class="menu-btn">
+        <input type="checkbox" id="btn-toggle">
+        <label for="btn-toggle" class="btn-label">
+          <span></span>
+        </label>
+      </div>
+      <div class="menu-content">
+        <ul>
+          <li>
+            <a href="link1">LINK1</a>
+          </li>
+          <li>
+            <a href="link2">LINK2</a>
+          </li>
+          <li>
+            <a href="link3">LINK3</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <div class="">
@@ -45,6 +63,12 @@
       <div class="copyright">Copyright © 2021 Kiyoka Kaneshi</div>
     </footer>
     <script>
+      $(function() {
+        $('#btn-toggle').on('click', function() {
+          $('.menu-content').slideToggle();
+          $('.menu-content').toggleClass('active');
+        });
+      });
     </script>
   </body>
 </html>

@@ -14,9 +14,79 @@ body {
 }
 
 header {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#btn-toggle {
+  display: none;
+}
+
+.btn-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+}
+
+.btn-label span,
+.btn-label span::before,
+.btn-label span::after {
+  content: '';
+  background: #000000;
+  display: block;
+  height: 4px;
+  width: 28px;
+  position: absolute;
+  transition: all 0.5s;
+  z-index: 100;
+}
+
+.btn-label span::before {
+  bottom: 8px;
+}
+
+.btn-label span::after {
+  top: 8px;
+}
+
+#btn-toggle:checked ~ .btn-label span {
+  background: transparent;
+}
+
+#btn-toggle:checked ~ .btn-label span::before {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+#btn-toggle:checked ~ .btn-label span::after { 
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.menu-content {
+  background: #ffffff;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  position: absolute;
+  top: 49px;
+  left: 0;
 }
 
 main {
