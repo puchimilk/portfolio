@@ -89,10 +89,31 @@ header {
   left: 0;
 }
 
+.menu-content ul {
+  padding: 16px;
+}
+
+.menu-content ul li {
+  list-style-type: none;
+}
+
+.menu-content ul li a {
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 100%;
+}
+
 main {
+  width: 100%;
+  padding-top: 49px;
 }
 
 section {
+  height: calc(100vh - 49px);
+  width: 100%;
 }
 
 footer {

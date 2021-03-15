@@ -32,13 +32,13 @@
       <div class="menu-content">
         <ul>
           <li>
-            <a href="link1">LINK1</a>
+            <a href="#link1">LINK1</a>
           </li>
           <li>
-            <a href="link2">LINK2</a>
+            <a href="#link2">LINK2</a>
           </li>
           <li>
-            <a href="link3">LINK3</a>
+            <a href="#link3">LINK3</a>
           </li>
         </ul>
       </div>
@@ -64,9 +64,18 @@
     </footer>
     <script>
       $(function() {
+        // 開くと閉じるが逆になっている
         $('#btn-toggle').on('click', function() {
           $('.menu-content').slideToggle();
           $('.menu-content').toggleClass('active');
+        });
+        $('a[href^=#]').on('click', function() {
+          var speed = 500;
+          var href = $(this).attr('href');
+          var target = $(href == '#' || href == '' ? 'html' : href);
+          var position = target.offset().top;
+          $('html, body').animate({scrollTop: position}, speed, 'swing');
+          return false;
         });
       });
     </script>
