@@ -221,4 +221,16 @@ footer {
   .section-inner {
     flex-direction: column;
   }
+  
+  .skill-sheet {
+    width: 100%;
+  }
+  
+  .skill-sheet:first-child {
+    margin-bottom: 16px;
+  }
+  
+  .skill-sheet:last-child {
+    margin-top: 16px;
+  }
 }
