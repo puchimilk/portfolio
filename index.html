@@ -22,25 +22,27 @@
   </head>
   <body>
     <header>
-      <div class="logo">PORTFOLIO</div>
-      <div class="menu-btn">
-        <input type="checkbox" id="btn-toggle">
-        <label for="btn-toggle" class="btn-label">
-          <span></span>
-        </label>
-      </div>
-      <div class="menu-content">
-        <ul>
-          <li>
-            <a href="#link1">LINK1</a>
-          </li>
-          <li>
-            <a href="#link2">LINK2</a>
-          </li>
-          <li>
-            <a href="#link3">LINK3</a>
-          </li>
-        </ul>
+      <div class="header-inner">
+        <div class="logo">PORTFOLIO</div>
+        <div class="menu-btn">
+          <input type="checkbox" id="btn-toggle">
+          <label for="btn-toggle" class="btn-label">
+            <span></span>
+          </label>
+        </div>
+        <div class="menu-content">
+          <ul>
+            <li>
+              <a href="#link1" id="menu-close">LINK1</a>
+            </li>
+            <li>
+              <a href="#link2" id="menu-close">LINK2</a>
+            </li>
+            <li>
+              <a href="#link3" id="menu-close">LINK3</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -69,11 +71,12 @@
           $('.menu-content').slideToggle();
           $('.menu-content').toggleClass('active');
         });
-        $('a[href^=#]').on('click', function() {
+        $('a[href^="#"]').on('click', function() {
+          var header = $('header').height();
           var speed = 500;
           var href = $(this).attr('href');
           var target = $(href == '#' || href == '' ? 'html' : href);
-          var position = target.offset().top;
+          var position = target.offset().top - header;
           $('html, body').animate({scrollTop: position}, speed, 'swing');
           return false;
         });
