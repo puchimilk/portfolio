@@ -167,7 +167,8 @@ footer {
   }
 
   .menu-content ul li a {
-    font-size: 18px;
+    font-size: 20px;
+    height: 40px;
     width: 100%;
   }
 }
