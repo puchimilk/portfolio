@@ -98,7 +98,11 @@ footer {
   font-size: 12px;
 }
 
-@media screen and (max-width: 800px) {  
+@media screen and (max-width: 800px) {
+  .logo {
+    font-size: 22px;
+  }
+  
   .menu-btn {
     display: block;
   }
