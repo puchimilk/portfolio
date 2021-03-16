@@ -145,7 +145,7 @@ footer {
 }
 
 .svg path {
-  fill: green;
+  fill: #ffd000;
 }
 
 @media screen and (max-width: 800px) {
