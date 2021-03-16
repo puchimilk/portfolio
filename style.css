@@ -145,6 +145,14 @@ footer {
   width: 18px;
 }
 
+.svg path {
+  fill: green;
+}
+
+.svg svg {
+  fill: blue;
+}
+
 @media screen and (max-width: 800px) {
   .logo {
     font-size: 22px;
