@@ -140,12 +140,12 @@ footer {
 }
 
 .svg {
+  height: 18px;
+  width: 18px;
 }
 
 .svg path {
   fill: green;
-  height: 18px;
-  width: 18px;
 }
 
 @media screen and (max-width: 800px) {
