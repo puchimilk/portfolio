@@ -139,6 +139,11 @@ footer {
   font-size: 12px;
 }
 
+.test-icon path {
+  color: rebeccapurple;
+  fill: currentColor;
+}
+
 @media screen and (max-width: 800px) {
   .logo {
     font-size: 22px;
