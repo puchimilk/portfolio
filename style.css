@@ -140,7 +140,8 @@ footer {
 }
 
 .svg {
-  fill: #ffd000;
+  color: #ffd000;
+  fill: currentColor;
   height: 18px;
   width: 18px;
 }
