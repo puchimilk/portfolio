@@ -204,7 +204,7 @@
                   </svg>
                 </div>
                 <div>
-                  <img src="images/star.svg" class="test-icon" alt="星" height="16" width="16" />
+                  <img src="images/star.svg" class="svg" alt="星">
                 </div>
               </div>
             </div>
@@ -242,6 +242,7 @@
           $('html, body').animate({scrollTop: position}, speed, 'swing');
           return false;
         });
+        deSVG('.svg', true);
       });
     </script>
   </body>

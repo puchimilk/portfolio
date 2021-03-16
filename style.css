@@ -139,9 +139,10 @@ footer {
   font-size: 12px;
 }
 
-.test-icon path {
-  color: rebeccapurple;
-  fill: currentColor;
+.svg {
+  fill: #ffd000;
+  height: 18px;
+  width: 18px;
 }
 
 @media screen and (max-width: 800px) {
