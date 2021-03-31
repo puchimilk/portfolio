@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Source Han Sans';
+  src: url(/font/SourceHanSansJP-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Source Han Sans';
+  src: url(/font/SourceHanSansJP-700.otf);
+  font-weight: 700;
+}
+
 html {
   height: 100%;
   margin: 0;
@@ -9,8 +21,10 @@ html {
 }
 
 body {
+  color: #333;
   background: #ffffff;
-  font-family: sans-serif;
+  font-family: 'Source Han Sans', sans-serif;
+  font-weight: 400;
   font-size: 16px;
 }
 
@@ -36,7 +50,7 @@ header {
 
 .logo {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .menu-btn {
@@ -69,14 +83,13 @@ main {
 }
 
 section {
-  /* height: calc(100vh - 49px); */
-  min-height: 300px;
+  min-height: 200px;
   width: 100%;
 }
 
 .section-title {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,6 +102,11 @@ section {
   flex-direction: row;
   justify-content: space-between;
   max-width: 80%;
+  margin: 0 auto;
+}
+
+.sentence {
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -112,7 +130,7 @@ section {
 }
 
 .sheet-title {
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -132,7 +150,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 64px;
 }
 
 .copyright {
@@ -148,7 +166,7 @@ footer {
   fill: #ffd000;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 450px) {
   .logo {
     font-size: 22px;
   }
@@ -174,7 +192,7 @@ footer {
   .btn-label span::before,
   .btn-label span::after {
     content: '';
-    background: #000000;
+    background: #333;
     display: block;
     height: 4px;
     width: 28px;
