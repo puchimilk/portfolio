@@ -2,136 +2,80 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <meta name="viewport" content="width=device-width">
+    <title>ポートフォリオ</title>
     <link type="text/css" rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/desvg.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
   </head>
   <body>
     <header>
-      <div class="header-inner">
-        <div class="logo">PORTFOLIO</div>
-        <div class="menu-btn">
-          <input type="checkbox" id="btn-toggle">
-          <label for="btn-toggle" class="btn-label">
-            <span></span>
-          </label>
-        </div>
-        <div class="menu-content">
-          <ul>
-            <li>
-              <a href="#link1" id="menu-close">ABOUT</a>
-            </li>
-            <li>
-              <a href="#link2" id="menu-close">SKILL</a>
-            </li>
-            <li>
-              <a href="#link3" id="menu-close">WORKS</a>
-            </li>
-          </ul>
-        </div>
+      <div class="logo">
+        <p>ポートフォリオ</p>
+      </div>
+      <div class="menubar">
+        <ul>
+          <li>
+            <a href="#about">ABOUT</a>
+          </li>
+          <li>
+            <a href="#skill">SKILL</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <section id="link1">
-        <div class="section-title">ABOUT</div>
-        <div class="section-inner">
-          <div class="sentence">
-            <p>
-              大阪府大阪市出身<br>
-              独学でWEBデザインとアプリ開発を勉強しています。
-            </p>
-          </div>
+      <div id="about" class="area">
+        <div class="box">
+          <h1>ABOUT</h1>
+          <table>
+            <tr>
+              <th>出身地</th>
+              <td>大阪府大阪市</td>
+            </tr>
+            <tr>
+              <th>年齢</th>
+              <td>1998年12月13日（22歳）</td>
+            </tr>
+            <tr>
+              <th>大学</th>
+              <td>日本大学 文理学部 史学専攻（通信教育課程）第１学年 在学中</td>
+            </tr>
+            <tr>
+              <th>趣味</th>
+              <td>映画・舞台鑑賞、旅行、プログラミング、散歩、食べ歩き</td>
+            </tr>
+          </table>
         </div>
-      </section>
-      <section id="link2">
-        <div class="section-title">SKILL</div>
-        <div class="section-inner">
-          <dir class="skill-sheet">
-            <div class="sheet-inner">
-              <div class="sheet-title">フロントエンド</div>
-              <div class="skill-inner">
-                <div class="skill-name">HTML</div>
-                <div class="rating-star">
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                </div>
-              </div>
-              <div class="skill-inner">
-                <div class="skill-name">CSS</div>
-                <div class="rating-star">
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                </div>
-              </div>
-              <div class="skill-inner">
-                <div class="skill-name">JavaScript</div>
-                <div class="rating-star">
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                </div>
-              </div>
-              <div class="skill-inner">
-                <div class="skill-name">jQuery</div>
-                <div class="rating-star">
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                </div>
-              </div>
-            </div>
-          </dir>
-          <dir class="skill-sheet">
-            <div class="sheet-inner">
-              <div class="sheet-title">バックエンド</div>
-              <div class="skill-inner">
-                <div class="skill-name">PHP</div>
-                <div class="rating-star">
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                </div>
-              </div>
-            </div>
-          </dir>
-          <dir class="skill-sheet">
-            <div class="sheet-inner">
-              <div class="sheet-title">アプリ開発</div>
-              <div class="skill-inner">
-                <div class="skill-name">Flutter</div>
-                <div class="rating-star">
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                  <img src="image/star1.svg" class="svg" alt="星" />
-                </div>
-              </div>
-            </div>
-          </dir>
+      </div>
+      <div id="skill" class="area">
+        <div class="box">
+          <h1>SKILL</h1>
+          <table>
+            <tr>
+              <th>HTML・CSS</th>
+              <td>基礎が出来るようになりました。</td>
+            </tr>
+            <tr>
+              <th>JavaScript</th>
+              <td>Chrome拡張機能の開発をはじめました。</td>
+            </tr>
+            <tr>
+              <th>Python</th>
+              <td>形態素解析の勉強をはじめました。</td>
+            </tr>
+            <tr>
+              <th>Dart(Flutter)</th>
+              <td>アプリの配布を目指して開発を進めています。</td>
+            </tr>
+          </table>
         </div>
-      </section>
-      <section id="link3">
-        <div class="section-title">WORKS</div>
-        <div class="sectin-inner"></div>
-      </section>
+      </div>
     </main>
     <footer>
-      <div class="copyright">Copyright © 2021 Kiyoka Kaneshi</div>
+      <a href="https://github.com/puchimilk" id="github">GitHub</a>
+      <h6 id="copyright">© 2021 Kiyoka Kaneshi</h6>
     </footer>
     <script src="js/script.js"></script>
   </body>

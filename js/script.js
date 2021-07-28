@@ -1,17 +1,4 @@
-$(function () {
-  if (window.matchMedia('(max-width: 800px)').matches) {
-    $('.btn-label').on('click', function () {
-      $('.menu-content').slideToggle();
-      $('.menu-content').toggleClass('active');
-    });
-    
-    $('a[href^="#"]').on('click', function () {
-      $('.menu-content').slideToggle();
-      $('.menu-content').removeClass('active');
-      $('#btn-toggle').prop('checked', false);
-    });
-  }
-  
+$(function () {  
   $('a[href^="#"]').on('click', function () {
     var header = $('header').outerHeight();
     var speed = 500;
@@ -21,6 +8,4 @@ $(function () {
     $('html, body').animate({ scrollTop: position }, speed, 'swing');
       return false;
   });
-  
-  deSVG('.svg', true);
 });
