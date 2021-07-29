@@ -54,7 +54,7 @@ main {
 }
 
 .area {
-  padding: 16px 8px;
+  padding: 16px 0;
 }
 
 .box {
@@ -116,91 +116,8 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  .menu-btn {
-    display: block;
-  }
-
-  #btn-toggle {
-    display: none;
-  }
-
-  .btn-label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 28px;
-    width: 28px;
-  }
-
-  .btn-label span,
-  .btn-label span::before,
-  .btn-label span::after {
-    content: '';
-    background: #333;
-    display: block;
-    height: 4px;
-    width: 28px;
-    position: absolute;
-    transition: all 0.5s;
-    z-index: 100;
-  }
-
-  .btn-label span::before {
-    bottom: 8px;
-  }
-
-  .btn-label span::after {
-    top: 8px;
-  }
-
-  #btn-toggle:checked ~ .btn-label span {
-    background: transparent;
-  }
-
-  #btn-toggle:checked ~ .btn-label span::before {
-    bottom: 0;
-    transform: rotate(-45deg);
-  }
-
-  #btn-toggle:checked ~ .btn-label span::after { 
-    top: 0;
-    transform: rotate(45deg);
-  }
-
-  .menu-content {
-    background: #ffffff;
-    display: none;
-    width: 100%;
-    border-bottom: 1px solid #e5e5e5;
-    position: absolute;
-    top: 49px;
-    left: 0;
-  }
-
-  .menu-content ul {
-    flex-direction: column;
-    padding: 8px 32px;
-  }
-
-  .menu-content ul li a {
-    height: 40px;
-    width: 100%;
-  }
-  
-  .section-inner {
-    flex-direction: column;
-  }
-  
-  .skill-sheet {
-    width: 100%;
-  }
-  
-  .skill-sheet:first-child {
-    margin-bottom: 24px;
-  }
-  
-  .skill-sheet:last-child {
-    margin-top: 24px;
+  .area {
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }
