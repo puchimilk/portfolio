@@ -101,6 +101,10 @@ footer {
   height: 128px;
 }
 
+#github {
+  height: 18px;
+}
+
 #copyright {
   color: #ffffff;
   margin: 0;
