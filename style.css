@@ -100,8 +100,21 @@ footer {
   height: 128px;
 }
 
+.linkicon {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkicon a {
+  text-decoration: none;
+  width: 24px;
+  height: 24px;
+}
+
 #github {
-  height: 18px;
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
 }
 
 #copyright {
