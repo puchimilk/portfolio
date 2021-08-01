@@ -75,10 +75,6 @@ main {
   border-spacing: 0;
 }
 
-.b3 tr {
-  height: 48px;
-}
-
 .b3 th {
   width: 20%;
 }
@@ -89,6 +85,7 @@ main {
 
 .b3 th, .b3 td {
   border-bottom: 2px solid #e5e5e5;
+  padding: 12px 0;
 }
 
 footer {
