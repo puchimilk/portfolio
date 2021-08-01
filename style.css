@@ -13,7 +13,7 @@ header {
   justify-content: space-between;
   width: 100%;
   height: 46px;
-  border-bottom: 2px solid #ececec;
+  border-bottom: 2px solid #dadada;
   position: fixed;
 }
 
@@ -53,43 +53,42 @@ main {
   padding-top: 48px;
 }
 
-.area {
+.b2 {
+  width: 70%;
+  margin: 0 auto;
   padding: 16px 0;
 }
 
-.box {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 0 24px 32px;
+.b3 {
   border: 2px solid #e5e5e5;
   border-radius: 16px;
+  padding: 0 24px 32px;
 }
 
-.box h1 {
-  font-weight: normal;
+.b3 h1 {
   text-align: center;
 }
 
-table, th, td {
+.b3 table {
+  width: 100%;
+  border-top: 2px solid #e5e5e5;
   border-spacing: 0;
 }
 
-th {
+.b3 tr {
+  height: 48px;
+}
+
+.b3 th {
   width: 20%;
 }
 
-td {
+.b3 td {
   width: 80%;
 }
 
-th, td {
-  border-bottom: 2px solid #ededed;
-  padding: 8px;
-  height: 40px;
-}
-
-table tr:first-child th, tr:first-child td {
-  border-top: 2px solid #ededed;
+.b3 th, .b3 td {
+  border-bottom: 2px solid #e5e5e5;
 }
 
 footer {
@@ -111,11 +110,17 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .b2 {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .area {
-    padding-left: 8px;
-    padding-right: 8px;
+  .b1 {
+    margin: 0 16px;
+  }
+  
+  .b2 {
+    width: 100%;
   }
 }
