@@ -78,6 +78,10 @@ main {
   border-spacing: 0;
 }
 
+.b3 tr {
+  height: 64px;
+}
+
 .b3 th {
   width: 20%;
 }
