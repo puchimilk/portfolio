@@ -95,6 +95,20 @@ main {
   padding: 12px 0;
 }
 
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 4px;
+}
+
+.tags > span {
+  color: #ffffff;
+  background-color: #26c6da;
+  display: inline-block;
+  padding: 2px 12px 4px 12px;
+  border-radius: 999px;
+}
+
 footer {
   background: #2c2c2c;
   display: flex;
@@ -136,7 +150,7 @@ footer {
   .b1 {
     margin: 0 16px;
   }
-  
+
   .b2 {
     width: 100%;
   }
