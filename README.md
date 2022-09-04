@@ -1,3 +1,3 @@
 # portfolio
 
-[https://github.com/puchimilk/portfolio](https://github.com/puchimilk/portfolio)
+[https://puchimilk.github.io/portfolio/](https://puchimilk.github.io/portfolio/)
